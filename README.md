@@ -52,7 +52,7 @@ Cada seção representa formações ou projeto realizados durante o estágio est
 ## 🔗 Acesso
 
 Podes aceder à versão interativa da apresentação através do link abaixo:  
-**[👉 Ver Apresentação Online]([https://teu-link.com](https://apresentacao-estagio.vercel.app/))**
+**[👉 Ver Apresentação Online](https://apresentacao-estagio.vercel.app/)**
 
 ---
 
