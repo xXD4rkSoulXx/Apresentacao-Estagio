@@ -14,22 +14,14 @@ export default function MaeSaboneteSection({sectionRef}) {
 	const imagesTablet = [
 		'/images/MaeSabonete/FirstSectionTablet.png',
 		'/images/MaeSabonete/SecondSectionTablet.png',
-		'/images/MaeSabonete/ThirdSectionPC.png',
 		'/images/MaeSabonete/ForthSectionPC.png',
-		'/images/MaeSabonete/FifthSectionTablet.png',
-		'/images/MaeSabonete/FooterSectionPC.png',
-		'/images/MaeSabonete/ModalPC.png',
-		'/images/MaeSabonete/Contactos.png'
+		'/images/MaeSabonete/FooterSectionPC.png'
 	];
 	const imagesMobile = [
 		'/images/MaeSabonete/FirstSectionMobile.png',
 		'/images/MaeSabonete/SecondSectionMobile.png',
-		'/images/MaeSabonete/ThirdSectionPC.png',
 		'/images/MaeSabonete/ForthSectionMobile.png',
-		'/images/MaeSabonete/FifthSectionTablet.png',
-		'/images/MaeSabonete/FooterSectionMobile.png',
-		'/images/MaeSabonete/ModalPC.png',
-		'/images/MaeSabonete/Contactos.png'
+		'/images/MaeSabonete/FooterSectionMobile.png'
 	];
 	const tablet = useRef(null);
 	const [indexTablet, setIndexTablet] = useState(0);

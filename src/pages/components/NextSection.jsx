@@ -67,11 +67,11 @@ export default function NextSection({sectionRef}) {
 	}, {scope: img});
 	
 	return (
-		<section ref={sectionRef} className="w-full min-h-screen text-white flex flex-col justify-center items-center space-y-20">
-			<article ref={img} className="flex flex-col justify-center space-y-10">
-				<img src="/images/Courses/NextJSDocumentation.png" alt="NextJS Documentation" className="w-200 h-auto" />
+		<section ref={sectionRef} className="w-full min-h-screen text-white flex justify-center items-center space-x-20">
+			<article ref={img} className="flex flex-col justify-center items-center space-y-10 -ml-50">
+				<img src="/images/Courses/NextJSDiploma.png" alt="NextJS Diploma" className="w-200 h-auto" />
 			</article>
-			<article ref={text} className="h-auto flex flex-col space-y-10">
+			<article ref={text} className="h-auto flex flex-col items-center space-y-10">
 				<div className="self-center flex space-x-10 -ml-7">
 					<img src="/images/Icons/NextJS.png" alt="Next" className="w-18 h-18" />
 					<img src="/images/Icons/TypeScript.png" alt="TypeScript" className="w-18 h-18" />
