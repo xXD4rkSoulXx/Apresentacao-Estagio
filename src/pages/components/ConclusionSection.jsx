@@ -105,7 +105,7 @@ export default function ConclusionSection({sectionRef}) {
             </article>
             <article ref={notUsed} className="flex flex-col justify-center space-y-10">
                 <h1 className="text-6xl font-bold text-center">Tecnologias</h1>
-                <h1 className="text-6xl font-bold text-center">ambandonadas</h1>
+                <h1 className="text-6xl font-bold text-center">abandonadas</h1>
 				<div className="flex justify-center space-x-15 ml-10">
                     <img src="/images/Icons/CSS.svg" alt="CSS" className="w-20 h-20" />
                     <img src="/images/Icons/Bootstrap.png" alt="Bootstrap" className="w-15 h-15" />
