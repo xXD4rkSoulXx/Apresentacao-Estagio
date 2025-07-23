@@ -91,9 +91,9 @@ export default function Index() {
 			<GSAPSection sectionRef={(el) => sectionRefs.current[10] = el} />
 			<GTATimelineSection sectionRef={(el) => sectionRefs.current[11] = el} />
 			<NextSection sectionRef={(el) => sectionRefs.current[12] = el} />
-			<ConclusionSection sectionRef={(el) => sectionRefs.current[13] = el} />
-			<FuturePlansSection sectionRef={(el) => sectionRefs.current[14] = el} />
-			<EndSection sectionRef={(el) => sectionRefs.current[15] = el} />
+			{/*<ConclusionSection sectionRef={(el) => sectionRefs.current[13] = el} />*/}
+			<FuturePlansSection sectionRef={(el) => sectionRefs.current[13] = el} />
+			<EndSection sectionRef={(el) => sectionRefs.current[14] = el} />
 		</main>
 	);
 }
